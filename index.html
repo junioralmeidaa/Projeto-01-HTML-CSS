@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Móveis Personalizados</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+<!-- Primeiro elemento foi criado para posicionar uma imagem do figma, onde foi usado a tag img-->
+  <img id="balls" src="images/balls.svg" 
+  alt="Bolinhas laranjas, no canto direito inferior da tela.">
+  <!-- Precisamos agora criar um novo elemento, que será usado uma Div, a div serve para fazer um agrupamento estilo em caixas, usada para separar fases,blocos,containers por exemplo-->
+  <!--Essa div pode conter um identificador estilo TAG por exemplo, quero especificar que essa div será para um container separado por um ID (HERO)-->
+  <!-- Então você pode colocar todos os objetos dentro do container, por exemplo tudo que estiver dentro do hero, será colocado nessa div(Caixa)-->
+  <!-- A TAG (SPAN) É DEFINIDA NO CSS PARA DAR CORES AS FRASES, JÁ A TAG(STRONG) É DEFINIDA PARA NEGRITO-->
+<div id="hero">
+
+    <img src="images/image1.jpg"
+    alt="Ilustração de uma pessoa em uma sala de móveis personalizados">
+
+  <h1>Ambientes <span>únicos</span> para você!</h1>
+  <p>
+    Nós criamos ambientes <strong>exclusívos</strong> e <strong>únicos</strong>, 
+    com muito bom gosto e profissionalismo, 
+    investimos tempo e <span>dedicação no seu projeto</span>.
+
+    <br>
+    <br>
+
+     Tenha <span>ambientes limpos</span> e bem decorados,
+     transmitindo <strong>elegância</strong> e 
+     <strong>finesse</strong> para todo aquele que estiver ali.
+  </p>
+</div>
+<!-- Dentro da Div footer abaixo serão colocados elementos de fale conosco e redirecionamento para o instagram, serão criados os elementos dessa div com o CSS-->
+<div id="footer">
+
+  <div id="line">
+
+  </div>
+
+  <a target="_blank"
+  href="https://www.instagram.com/">Instagram</a>
+
+  <a href="mailto:junioruninassau123@outlook.com">Fale Conosco</a>
+
+</div>
+
+
+</body>
+</html>
+
+<!-- A TAG H1 {} E OS RICOCHETES SERVEM PARA ESPEFICAR ONDE VOCÊ QUER FAZER A MUDANÇA, COMO FOI SELECIONADO A BAIXO TAG H1 COM FONTE INTER, OPEN SANS
+CASO EU QUEIRA FAZER O AGUPAMENTO DE VARIOS SELETORES EU COLOCAREI p,h1,boody por exemplo body,p,a {} com a espeficicação de onde ficará.
+
+Sempre prestar atenção no tamanho da fonte e na largura dela (font-weight: 400;
+font-size: ) no CSS
+
+
